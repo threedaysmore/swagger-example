@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerTutorial</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerTutorial.Controllers.ResolutionsController.Get">
+            <summary>
+            Returns all resolutions
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerTutorial.Controllers.ResolutionsController.GetResolutionById(System.Int32)">
+            <summary>
+            Return resolution by Id
+            </summary>
+        </member>
+        <member name="M:SwaggerTutorial.Controllers.ResolutionsController.AddResolution(SwaggerTutorial.Models.ResolutionModel)">
+            <summary>
+            Adds resolution
+            </summary>
+            <param name="resolutionModel"></param>
+        </member>
+        <member name="M:SwaggerTutorial.Controllers.ResolutionsController.DeleteResolutionById(System.Int32)">
+            <summary>
+            deletes resolution
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="T:SwaggerTutorial.Controllers.WeatherForecastController">
+            <summary>
+            Weather Forecast Controller
+            </summary>
+        </member>
+        <member name="M:SwaggerTutorial.Controllers.WeatherForecastController.Get">
+            <summary>
+            Gets weather forecast
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerTutorial.Controllers.WeatherForecastController.GetLocationZipCode">
+            <summary>
+            Returns random 5 digits
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerTutorial.Controllers.WeatherForecastController.Echo(SwaggerTutorial.Models.EchoModel)">
+            <summary>
+            Echo back whatever you say
+            </summary>
+            <param name="echoModel"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
